@@ -103,3 +103,17 @@ body {
   padding-right: 3%;
 }
   
+
+#textnone {
+  text-decoration: none;
+  color: white;
+}
+#textnone2 {
+  text-decoration: none;
+  color: #0275d8;
+}
+
+#textnone2:hover {
+  text-decoration: none;
+  color: white;
+}

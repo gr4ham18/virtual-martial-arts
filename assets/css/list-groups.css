@@ -1,10 +1,4 @@
-.b-example-divider {
-  height: 3rem;
-  background-color: rgba(0, 0, 0, .1);
-  border: solid rgba(0, 0, 0, .15);
-  border-width: 1px 0;
-  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-}
+
 
 .bi {
   vertical-align: -.125em;
@@ -32,6 +26,9 @@
   outline: 0;
 }
 
+.btn-group{
+  display: none;
+}
 .list-group-checkable {
   display: grid;
   gap: .5rem;
@@ -46,16 +43,13 @@
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
 }
-.list-group-item-check:hover + .list-group-item {
-  background-color: var(--bs-light);
-}
-.list-group-item-check:checked + .list-group-item {
-  color: #fff;
+.list-group-item-check:hover + .list-group-item  .btn-group{
   background-color: var(--bs-blue);
+  color: #fff;
+  display: flex;
 }
-.list-group-item-check[disabled] + .list-group-item,
-.list-group-item-check:disabled + .list-group-item {
-  pointer-events: none;
-  filter: none;
-  opacity: .5;
+
+
+#belts {
+width: 20%;
 }
